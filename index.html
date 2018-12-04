@@ -10,38 +10,7 @@
 </head>
 <body>
 
-<body onload="openFullscreen()">
-                        
-<script>
-/* Get the documentElement (<html>) to display the page in fullscreen */
-var elem = document.documentElement;
 
-/* View in fullscreen */
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.mozRequestFullScreen) { /* Firefox */
-    elem.mozRequestFullScreen();
-  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE/Edge */
-    elem.msRequestFullscreen();
-  }
-}
-
-/* Close fullscreen */
-function closeFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.mozCancelFullScreen) { /* Firefox */
-    document.mozCancelFullScreen();
-  } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) { /* IE/Edge */
-    document.msExitFullscreen();
-  }
-}
-</script>
   
 <div class="jumbotron text-center">
 <div class="progress">
@@ -62,11 +31,12 @@ function closeFullscreen() {
  
 <h3><b> <font color="red"><marquee behavior="scroll" direction="left">Calling all 9 year olds! Pick up your pickaxes and help save PewDiePie! He needs us and YOU can make a difference!</marquee><b><h3>
 <hr>
+<iframe src="https://youcount.github.io/e/#!/PewDiePie" height="100" width="250" frameborder="0"></iframe>
   </div>
 
 
 <center>
-<iframe src="https://youcount.github.io/e/#!/PewDiePie" height="100" width="250" frameborder="0"></iframe>
+
 
   
 
